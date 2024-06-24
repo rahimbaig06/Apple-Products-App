@@ -4,10 +4,9 @@ import 'detail_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   final List<Product> products = [
-    Product(name: 'iPhone 14', description: 'The latest iPhone model with A15 Bionic chip.'),
+    Product(name: 'iPhone 15 Pro Max', description: 'The latest iPhone model with A15 Bionic chip.'),
     Product(name: 'iPad Pro', description: 'The most advanced iPad with M1 chip.'),
     Product(name: 'MacBook Pro', description: 'The powerful MacBook with M1 Pro chip.'),
-    // Add more products here
   ];
   HomeScreen({Key? key}) : super(key: key);
   @override
